@@ -12,7 +12,8 @@ function resetScore()
     p1scr=p2scr=0;
     p1dis.innerText=p1scr;
     p2dis.innerText=p2scr;
-    
+    p1dis.style.color='black';
+    p2dis.style.color='black';
 }
 P1button.addEventListener('click',function()
 {
